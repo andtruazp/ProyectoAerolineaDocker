@@ -1,0 +1,38 @@
+<div class="container">
+  <h1 class="text-center mb-4">Bienvenido</h1>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h2 class="text-center">Calendario de Vuelos</h2>
+      <p>
+        Aquí puedes acceder al calendario de vuelos y ver información
+        relacionada con los vuelos programados.
+      </p>
+      <a href="calendario.html" class="btn btn-primary btn-block"
+        >Ir al Calendario</a
+      >
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h2 class="text-center">Editar Datos de la Empresa</h2>
+      <p>Actualiza la información de tu empresa en esta sección.</p>
+      <a [routerLink]="['/empresas']" class="btn btn-primary btn-block"
+        >Editar Datos</a
+      >
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h2 class="text-center">Crear Nuevo Servicio de Vuelos</h2>
+      <p>
+        Utiliza este apartado para crear un nuevo servicio de vuelos.
+      </p>
+      <a [routerLink]="['/servicio']" class="btn btn-primary btn-block"
+        >Crear Servicio</a
+      >
+    </div>
+  </div>
+</div>
